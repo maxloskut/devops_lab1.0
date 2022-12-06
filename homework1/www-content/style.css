@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.fr_poster{
+    display: flex;
+    background-color: #74B7AC;
+    width: 95%;
+    height: 65vh;
+
+}
+.fr_p{
+    width: 40%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0390/4361/articles/coffee_beans_1400x.progressive.jpg?v=1588169305");
+    background-size: 100%;
+}
+.sc_p{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-coffee{
+    font-size: 60px;
+    color: #5C4E4E;
+}
+.capt{
+    border-top: 5px solid #5C4E4E;
+    border-bottom: 5px solid #5C4E4E;
+    padding: 5px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.adv{
+    width: 100%;
+    align-items: center;
+    background-color: #5C4E4E;
+    padding: 15px;
+}
+.adv p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Andale Mono, monospace;
+    font-weight: 500;
+    color: aliceblue;
+}
