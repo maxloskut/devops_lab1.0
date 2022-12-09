@@ -23,7 +23,6 @@ Vagrant.configure("2") do |config|
 
         mkdir /var/www/ssl-test 
         cp -f /vagrant/www-content/index.html /usr/share/httpd/noindex/index.html
-        cp -rav /vagrant/www-content/style.css /usr/share/httpd/noindex/style.css
 
         systemctl start httpd
         systemctl enable httpd
